@@ -1,0 +1,26 @@
+INTERVIEW EXPLANATION
+
+Project: Java-Based Quiz Management System
+
+I developed a web-based quiz management system using Java, JSP/Servlets,
+JDBC and MySQL. Users can register and log in, take multiple-choice quizzes,
+submit answers, and immediately see their score and percentage. The system
+stores quiz results and provides a history page. An admin role is included
+to add, edit and delete questions.
+
+Architecture:
+Browser -> JSP/HTML/CSS/JavaScript -> Servlet -> DAO -> JDBC -> MySQL
+
+Important classes:
+- LoginServlet: authenticates users.
+- RegisterServlet: creates student accounts.
+- QuizServlet: loads questions, receives answers and calculates score.
+- HistoryServlet: displays previous attempts.
+- QuestionAdminServlet: CRUD operations for questions.
+- UserDAO/QuestionDAO/ResultDAO: database operations.
+- DBConnection: JDBC connection.
+- Question/User: model classes.
+
+Resume bullets:
+• Developed a web-based Java quiz application with JSP/Servlets, JDBC and MySQL, supporting MCQ quizzes, answer validation and automatic score calculation.
+• Implemented user authentication, quiz history and admin CRUD operations for question management, with responsive HTML/CSS/JavaScript interfaces.
